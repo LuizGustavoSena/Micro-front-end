@@ -1,14 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Home from "../presentation/pages/home";
 
-import "./index.css";
-
-const App = () => (
-  <div className="container">
-    <div>Name: Login</div>
-    <div>Framework: react</div>
-    <div>Language: TypeScript</div>
-    <div>CSS: Empty CSS</div>
-  </div>
+ReactDOM.render(
+  <Home />, 
+  document.getElementById("main")
 );
-ReactDOM.render(<App />, document.getElementById("main"));
