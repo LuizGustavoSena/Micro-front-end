@@ -20,11 +20,13 @@ body, html{
 .title{
     color: purple;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
-.form__field {
+input {
     font-family: inherit;
     width: 70%;
+    margin-top: 20px;
     border: 0;
     border-bottom: 2px solid purple;
     outline: 0;
@@ -38,8 +40,22 @@ body, html{
 button{
     width: 100px;
     height: 40px;
-    margin-top: 40px;
-    margin-left: 250px;
+    margin-top: 70px;
+    margin-left: 110px;
     background-color: purple;
-    border-radius: 15px;
+    border-radius: 30px;
+}
+
+.bottom {
+    width: 70%;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+h3 {
+    color: red
 }
